@@ -11,6 +11,7 @@ Handling incomplete data in a correct manner is a notoriously hard problem in da
 - title: "Cryptocurrency Mining Games with Economic Discount and Decreasing Rewards"
   authors: 
   year: 2020
+  month: 12
   type: conference 
   published: 37th International Symposium on Theoretical Aspects of Computer Science (STACS 2020)
   publisher: 
@@ -33,7 +34,7 @@ In the consensus protocols used in most cryptocurrencies, participants called mi
   month:  6
   type: journal 
   published: Proceedings of the VLDB Endowment (PVLDB)
-  volume: 15<div class="gsc_oci_field">Issue11
+  volume: 15
   publisher: Very Large Data Base Endowment Inc.
   abstract: >
 Incomplete data, in the form of null values, has been extensively studied since the inception of the relational model in the 1970s. Anecdotally, one hears that the way in which SQL, the standard language for relational databases, handles nulls creates a myriad of problems in everyday applications of database systems. To the best of our knowledge, however, the actual shortcomings of SQL in this respect, as perceived by database practitioners, have not been systematically documented, and it is not known if existing research results can readily be used to address the practical challenges. 
@@ -41,6 +42,7 @@ Incomplete data, in the form of null values, has been extensively studied since 
 - title: "On the Tractability of Certain Answers for SQL Nulls in Relational Algebra with Inequalities."
   authors: Etienne Toussaint
   year: 2018
+  month: 6
   type: conference 
   published: AMW
   abstract: >
@@ -81,7 +83,8 @@ Gradient-based meta-learning and hyperparameter optimization have seen significa
 
 <div id="gsc_oci_title">Feed-Forward Source-Free Domain Adaptation via Class Prototypes"
   authors: Ondrej Bohdal, Da Li, Timothy Hospedales
-  year: 2022/10
+  year: 2022
+  month: 10
   type: journal 
   published: ECCV 2022 OOD-CV Workshop
 
@@ -95,19 +98,16 @@ Gradient-based meta-learning and hyperparameter optimization have seen significa
 
 - title: "Feed-Forward Source-Free Latent Domain Adaptation via Cross-Attention"
   authors: Ondrej Bohdal, Da Li, Shell Xu Hu, Timothy Hospedales
-  year: 2022/7
+  year: 2022
+  month: 7
   type: journal 
   published: arXiv preprint arXiv:2207.07624; ICML 2022 Workshop on Pre-training: Perspectives, Pitfalls, and Paths Forward
   abstract: >
-
-<div id="gsc_oci_title">Penalizing Confident Neural Networks"
-  authors: Ondrej Bohdal
-  year: 2018
-  institution: University of Edinburgh
-
+  
 - title: "EXOTica: An Extensible Optimization Toolset for Prototyping and Benchmarking Motion Planning and Control"
   authors: Vladimir Ivan, Yiming Yang, Wolfgang Merkt, Michael P Camilleri, Sethu Vijayakumar
   year: 2019
+  month: 6
   type: conference 
   published: Robot Operating System (ROS)
   pages: 211-240
@@ -189,6 +189,7 @@ Shared Demand Responsive Transport services are flexible services increasingly r
 <div id="gsc_oci_title">Automated personal trip identification app for mobility data collection in Malta"
   authors: Maria Attard, Michael Camilleri, Adrian Muscat, Victor Buttigieg
   year: 2017
+  month: 6
   type: conference 
   published: NECTAR XIV International Conference on Transport in a Networked Society
 
@@ -206,6 +207,7 @@ Multi-task learning shares information between related tasks, sometimes reducing
 - title: "Deep transformers with latent depth"
   authors: Xian Li, Asa Cooper Stickland, Yuqing Tang, Xiang Kong
   year: 2020
+  month: 6
   type: journal 
   published: Advances in Neural Information Processing Systems
   volume: 33
@@ -255,37 +257,36 @@ The Transformer model has achieved state-of-the-art performance in many sequence
 
 - title: "Regularising Fisher Information Improves Cross-lingual Generalisation"
   authors: Asa Cooper Stickland, Iain Murray
-  year: 2021/11
+  year: 2021
+  month: 11
   type: conference 
   published: Proceedings of the 1st Workshop on Multilingual Representation Learning
   pages: 238-241
   abstract: >
 Many recent works use &#8216;consistency regularisation&#8217;to improve the generalisation of fine-tuned pre-trained models, both multilingual and English-only. These works encourage model outputs to be similar between a perturbed and normal version of the input, usually via penalising the Kullback&#8211;Leibler (KL) divergence between the probability distribution of the perturbed and normal model. We believe that consistency losses may be implicitly regularizing the loss landscape. In particular, we build on work hypothesising that implicitly or explicitly regularizing trace of the Fisher Information Matrix (FIM), amplifies the implicit bias of SGD to avoid memorization. Our initial results show both empirically and theoretically that consistency losses are related to the FIM, and show that the flat minima implied by a small trace of the FIM improves performance when fine-tuning a multilingual model on additional languages. We aim to confirm these initial results on more datasets, and use our insights to develop better multilingual fine-tuning techniques.
 
-- title: "BERT and PALs: Projected Attention Layers"
-  authors: Asa Cooper Stickland, Iain Murray
-  abstract: >
-
 - title: "Neural Spline Flows"
   authors: Conor Durkan, Artur Bekasov, Iain Murray, George Papamakarios
   year: 2019
+  month: 12
   type: conference 
   published: Advances in Neural Information Processing Systems
   pages: 7509-7520
   abstract: >
 A normalizing flow models a complex probability density as an invertible transformation of a simple base density. Flows based on either coupling or autoregressive transforms both offer exact density evaluation and sampling, but rely on the parameterization of an easily invertible elementwise transformation, whose choice determines the flexibility of these models. Building upon recent work, we propose a fully-differentiable module based on monotonic rational-quadratic splines, which enhances the flexibility of both coupling and autoregressive transforms while retaining analytic invertibility. We demonstrate that neural spline flows improve density estimation, variational inference, and generative modeling of images.
 
-- title: " -- a toolkit for simulation-based inference"
+- title: "A toolkit for simulation-based inference"
   authors: 
   year: 2020 
   month:  7
-  type: journal 
+  type: preprint 
   published: arXiv preprint arXiv:2007.09114
   abstract: >
 
 - title: "Maximum Likelihood Training of Score-Based Diffusion Models"
   authors: Yang Song, Conor Durkan, Iain Murray, Stefano Ermon
   year: 2021
+  month: 12
   type: conference 
   published: Advances in Neural Information Processing Systems
   abstract: >
@@ -306,7 +307,7 @@ Likelihood-free methods perform parameter inference in stochastic simulator mode
   authors: Conor Durkan, Artur Bekasov, Iain Murray, George Papamakarios
   year: 2019 
   month:  6
-  type: journal 
+  type: preprint
   published: arXiv preprint arXiv:1906.02145
   abstract: >
 
@@ -334,8 +335,9 @@ Neural density estimators are flexible families of parametric models which have 
 - title: "nflows: normalizing flows in PyTorch"
   authors: Conor Durkan, Artur Bekasov, Iain Murray, George Papamakarios
   year: 2020
+  month: 6
   volume: 14
-  publisher: Zenodo, v0
+  publisher: 
 
 - title: "Sequential Neural Methods for Likelihood-Free Inference"
   authors: Conor Durkan, George Papamakarios, Iain Murray
@@ -347,7 +349,8 @@ Neural density estimators are flexible families of parametric models which have 
 
 - title: "How Well Do Self-Supervised Models Transfer?"
   authors: Linus Ericsson, Henry Gouk, Timothy M Hospedales
-  year: 2021/6
+  year: 2021
+  month: 6
   type: conference 
   published: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition
   abstract: >
@@ -356,17 +359,17 @@ Self-supervised visual representation learning has seen huge progress recently, 
 - title: "Self-Supervised Representation Learning: Introduction, advances, and challenges"
   authors: Linus Ericsson, Henry Gouk, Chen Change Loy, Timothy M Hospedales
   year: 2022 
-  month:  5<div class="gsc_oci_field">SourceIEEE Signal Processing Magazine
-  volume: 39<div class="gsc_oci_field">Issue3
+  month:  5IEEE Signal Processing Magazine
+  volume: 39
   pages: 42-62
-  publisher: IEEE
+  publisher: IEEE Signal Processing Magazine
   abstract: >
 
 - title: "Why do self-supervised models transfer? investigating the impact of invariance on downstream tasks"
   authors: Linus Ericsson, Henry Gouk, Timothy M Hospedales
   year: 2021 
   month:  11
-  type: journal 
+  type: prerpint 
   published: arXiv preprint arXiv:2111.11398
   abstract: >
 
@@ -374,7 +377,7 @@ Self-supervised visual representation learning has seen huge progress recently, 
   authors: Linus Ericsson, Nanqing Dong, Yongxin Yang, Ales Leonardis, Steven McDonagh
   year: 2022 
   month:  11
-  type: journal 
+  type: preprint
   published: arXiv preprint arXiv:2211.09022
   abstract: >
 
@@ -383,7 +386,8 @@ Self-supervised visual representation learning has seen huge progress recently, 
   year: 2014/9
   type: journal 
   published: International Journal of Artificial Intelligence in Education
-  volume: 24<div class="gsc_oci_field">Issue3
+  volume: 24
+  issue: 3
   pages: 284-332
   publisher: Springer New York
   abstract: >
@@ -393,7 +397,8 @@ Self-supervised visual representation learning has seen huge progress recently, 
   year: 2016/9
   type: journal 
   published: Journal of telemedicine and telecare
-  volume: 22<div class="gsc_oci_field">Issue6
+  volume: 22
+  issue: 6
   pages: 348-355
   publisher: SAGE Publications
   abstract: >
@@ -401,7 +406,8 @@ Help4Mood is an interactive system with an embodied virtual agent (avatar) to as
 
 - title: "Beetle II: a system for tutoring and computational linguistics experimentation"
   authors: Myroslava O Dzikovska, Johanna D Moore, Natalie Steinhauser, Gwendolyn Campbell, Elaine Farrow, Charles B Callaway
-  year: 2010/7
+  year: 2010
+  month: 7
   type: conference 
   published: Proceedings of the ACL 2010 System Demonstrations
   pages: 13-18
@@ -411,6 +417,7 @@ We present BEETLE II, a tutorial dialogue system designed to accept unrestricted
 - title: "Using natural language processing to analyze tutorial dialogue corpora across domains modalities"
   authors: Diane Litman, Johanna Moore, Myroslava O Dzikovska, Elaine Farrow
   year: 2009
+  month: 6
   type: conference 
   published: Artificial Intelligence in Education
   pages: 149-156
@@ -441,7 +448,8 @@ We present <span class="gs_fscp">Beetle II</span>, a tutorial dialogue system de
 
 - title: "Dealing with interpretation errors in tutorial dialogue"
   authors: Myroslava O Dzikovska, Charles B Callaway, Elaine Farrow, Johanna D Moore, Natalie Steinhauser, Gwendolyn Campbell
-  year: 2009/9
+  year: 2009
+  month: 9
   type: conference 
   published: Proceedings of the SIGDIAL 2009 Conference
   pages: 38-45
@@ -451,6 +459,8 @@ We describe an approach to dealing with interpretation errors in a tutorial dial
 - title: "The Beetle and BeeDiff tutoring systems"
   authors: Charles Callaway, Myroslava Dzikovska, Elaine Farrow, Manuel Marques-Pita, Colin Matheson, Johanna D Moore
   year: 2007
+  month: 5
+  type: preprint
   abstract: >
 
 - title: "Dialogue attributes that inform depth and quality of participation in course discussion forums"
@@ -458,21 +468,22 @@ We describe an approach to dealing with interpretation errors in a tutorial dial
   year: 2020 
   month:  3
   type: conference 
-  published: Proceedings of the tenth international conference on learning analytics &amp; knowledge
+  published: Proceedings of the tenth international conference on learning analytics and knowledge
   pages: 129-134
   abstract: >
 This paper describes work in progress to answer the question of how we can identify and model the depth and quality of student participation in class discussion forums using the content of the discussion forum messages. We look at two widely-studied frameworks for assessing critical discourse and cognitive engagement: the ICAP and Community of Inquiry (CoI) frameworks. Our goal is to discover where they agree and where they offer complementary perspectives on learning.
 
 - title: "Diagnosing Natural Language Answers to Support Adaptive Tutoring."
   authors: Myroslava O Dzikovska, Gwendolyn E Campbell, Charles B Callaway, Natalie B Steinhauser, Elaine Farrow, Johanna D Moore, Leslie A Butler, Colin Matheson
-  year: 2008/5
+  year: 2008
+  month: 5
   type: conference 
   published: FLAIRS Conference
   pages: 403-408
   abstract: >
 Understanding answers to open-ended explanation questions is important in intelligent tutoring systems. Existing systems use natural language techniques in essay analysis, but revert to scripted interaction with short-answer questions during remediation, making adapting dialogue to individual students difficult. We describe a corpus study that shows that there is a relationship between the types of faulty answers and the remediation strategies that tutors use; that human tutors respond differently to different kinds of correct answers; and that re-stating correct answers is associated with improved learning. We describe a design for a diagnoser based on this study that supports remediation in open-ended questions and provides an analysis of natural language answers that enables adaptive generation of tutorial feedback for both correct and faulty answers.
 
-- title: "&quot; Why is the Doctor a Man&quot; Reactions of Older Adults to a Virtual Training Doctor"
+- title: "'Why is the Doctor a Man'; Reactions of Older Adults to a Virtual Training Doctor"
   authors: Aurora Constantin, Catherine Lai, Elaine Farrow, Beatrice Alex, Ruth Pel-Littel, Henk Herman Nap, Johan Jeuring
   year: 2019 
   month:  5
@@ -484,7 +495,9 @@ Understanding answers to open-ended explanation questions is important in intell
 - title: "Combining semantic interpretation and statistical classification for improved explanation processing in a tutorial dialogue system"
   authors: Myroslava O Dzikovska, Elaine Farrow, Johanna D Moore
   year: 2013 
-  month:  7<div class="gsc_oci_field">SourceInternational Conference on Artificial Intelligence in Education
+  month:  7
+  type: conference
+  published: International Conference on Artificial Intelligence in Education
   pages: 279-288
   publisher: Springer, Berlin, Heidelberg
   abstract: >
@@ -501,7 +514,7 @@ We present an approach for combining symbolic interpretation and statistical cla
   authors: Gwendolyn E Campbell, Natalie B Steinhauser, Myroslava O Dzikovska, Johanna D Moore, Charles B Callaway, Elaine Farrow
   year: 2010 
   month:  1
-  publisher: NAVAL AIR WARFARE CENTER TRAINING SYSTEMS DIV ORLANDO FL
+  type: preprint 
   abstract: >
 We propose that a set of five dimensions forms a foundation underlying a number of prevalent theoretical perspectives on learning. We show how student contributions to instructional dialogue can be reliably annotated with these dimensions. Finally, we provide preliminary validation evidence for our coding scheme and illustrate the potential value of such an approach to analyzing student behavior in tutorial dialogue.Descriptors:
 
@@ -516,17 +529,20 @@ We propose that a set of five dimensions forms a foundation underlying a number 
 
 - title: "A life story in three parts: the use of triptychs to make sense of personal digital data"
   authors: Lisa Thomas, Elaine Farrow, Matthew Aylett, Pam Briggs
-  year: 2018/8
+  year: 2018
+  month: 8
   type: journal 
   published: Personal and Ubiquitous Computing
-  volume: 22<div class="gsc_oci_field">Issue4
+  volume: 22
+  issue: 4
   pages: 691-705
   publisher: Springer London
   abstract: >
 
 - title: "Adaptive tutorial dialogue systems using deep NLP techniques"
   authors: Myroslava O Dzikovska, Charles B Callaway, Elaine Farrow, Manuel Marques-Pita, Colin Matheson, Johanna D Moore
-  year: 2007/4
+  year: 2007
+  month: 4
   type: conference 
   published: Proceedings of Human Language Technologies: The Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL-HLT)
   pages: 5-6
@@ -548,7 +564,7 @@ As the quantity and variety of personal digital data shared on social media cont
   authors: Gwendolyn E Campbell, Natalie B Steinhauser, Myroslava Dzikovska, Johanna D Moore, Charles B Callaway, Elaine Farrow
   year: 2009 
   month:  1
-  publisher: NAVAL AIR WARFARE CENTER TRAINING SYSTEMS DIV ORLANDO FL
+  type: preprint
   abstract: >
 Research suggests that students who are aware of their own confusions and take steps to resolve those confusions are most likely to benefit from a learning experience. At the same time, there are conversational maxims, such as Leechs politeness maxims, that may inhibit a student from expressing and pursuing confusions within a tutorial dialogue. We investigated students expressions of confusion while working through a series of learning activities with a tutor. We found that, during the times when students were working independently on an activity, their expressions of confusion were reliable indicators of their lack of understanding however, when they were conversing with their tutors, these same students did not express confusion and, in fact, the more often the expressed comprehension, the worse they performed on the post-test. This suggests that student metacognitive statements should not be interpreted without taking into consideration the context in which they were expressed. We briefly consider implications for human tutors and the development of computer tutoring systems.Descriptors:
 
@@ -556,14 +572,14 @@ Research suggests that students who are aware of their own confusions and take s
   authors: Myroslava O Dzikovska, Charles B Callaway, Elaine Farrow
   year: 2006
   type: conference 
-  published: Proceedings of the Workshop KRAQ&#8217;06: Knowledge and Reasoning for Language Processing
+  published: Proceedings of the Workshop KRAQ06: Knowledge and Reasoning for Language Processing
   abstract: >
 We discuss how deep interpretation and generation can be integrated with a knowledge representation designed for question answering to build a tutorial dialogue system. We use a knowledge representation known to perform well in answering exam-type questions and show that to support tutorial dialogue it needs additional features, in particular, compositional representations for interpretation and structured explanation representations.
 
 - title: "Optimising Placement of Pollution Sensors in Windy Environments"
   authors: Sigrid Passano Hellan, Christopher G Lucas, Nigel H Goddard
   year: 2020/12
-  type: journal 
+  type: preprint 
   published: arXiv e-prints
   pages: arXiv: 2012.10770
   abstract: >
@@ -572,7 +588,7 @@ Air pollution is one of the most important causes of mortality in the world. Mon
 - title: "Bayesian Optimisation for Active Monitoring of Air Pollution"
   authors: Sigrid Passano Hellan, Christopher G Lucas, Nigel H Goddard
   year: 2022/2
-  type: journal 
+  type: preprint 
   published: arXiv e-prints
   pages: arXiv: 2202.07595
   abstract: >
@@ -584,7 +600,8 @@ Air pollution is one of the leading causes of mortality globally, resulting in m
   month:  11
   type: journal 
   published: Cognition
-  volume: 117<div class="gsc_oci_field">Issue2
+  volume: 117
+  issue: 2
   pages: 166-175
   publisher: Elsevier
   abstract: >
@@ -592,14 +609,16 @@ Air pollution is one of the leading causes of mortality globally, resulting in m
 - title: "Inflecting When There&#8217;s No Majority: Limitations of Encoder-Decoder Neural Networks as Cognitive Models for German Plurals"
   authors: Kate McCurdy, Sharon Goldwater, Adam Lopez
   year: 2020
+  month: 6
   type: conference 
   published: Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics
-  pages: 1745&#8211;1756
+  pages: 1745-1756
   abstract: >
 
 - title: "Grammatical gender associations outweigh topical gender bias in crosslinguistic word embeddings"
   authors: Katherine McCurdy, Oguz Serbetci
   year: 2017
+  month: 6
   type: conference 
   published: Widening Natural Language Processing (WiNLP)
   abstract: >
@@ -610,12 +629,14 @@ Air pollution is one of the leading causes of mortality globally, resulting in m
   month:  7
   type: journal 
   published: Journal of Eye Movement Research
-  volume: 6<div class="gsc_oci_field">Issue2
+  volume: 6
+  issue: 2
   abstract: >
 
 - title: "Tutorbot Corpus: Evidence of Human-Agent Verbal Alignment in Second Language Learner Dialogues."
   authors: Arabella Sinclair, Kate McCurdy, Christopher G Lucas, Adam Lopez, Dragan Ga&#353;evic
-  year: 2019/7
+  year: 2019
+  month: 7
   type: journal 
   published: International Educational Data Mining Society
   publisher: International Educational Data Mining Society
@@ -624,7 +645,8 @@ Prior research has shown that, under certain conditions, Human-Agent (HA) alignm
 
 - title: "Generalising to German Plural Noun Classes, from the Perspective of a Recurrent Neural Network"
   authors: Verna Dankers, Anna Langedijk, Kate McCurdy, Adina Williams, Dieuwke Hupkes
-  year: 2021/11
+  year: 2021
+  month: 11
   type: conference 
   published: Proceedings of the 25th Conference on Computational Natural Language Learning
   pages: 94-108
@@ -633,7 +655,8 @@ Inflectional morphology has since long been a useful testing ground for broader 
 
 - title: "Conditioning, but on Which Distribution? Grammatical Gender in German Plural Inflection"
   authors: Kate McCurdy, Adam Lopez, Sharon Goldwater
-  year: 2020/11
+  year: 2020
+  month: 11
   type: conference 
   published: Proceedings of the Workshop on Cognitive Modeling and Computational Linguistics
   pages: 59-65
@@ -642,7 +665,8 @@ Grammatical gender is a consistent and informative cue to the plural class of Ge
 
 - title: "Adaptor grammars for unsupervised paradigm clustering"
   authors: Kate McCurdy, Sharon Goldwater, Adam Lopez
-  year: 2021/8
+  year: 2021
+  month: 8
   type: conference 
   published: Proceedings of the 18th SIGMORPHON Workshop on Computational Research in Phonetics, Phonology, and Morphology
   pages: 82-89
@@ -668,7 +692,8 @@ Artificial language learning research has shown that, under some conditions, adu
 
 - title: "Semeval 2021 task 7: Hahackathon, detecting and rating humor and offense"
   authors: JA Meaney, Steven Wilson, Luis Chiruzzo, Adam Lopez, Walid Magdy
-  year: 2021/8
+  year: 2021
+  month: 8
   type: conference 
   published: Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)
   pages: 105-119
@@ -710,7 +735,8 @@ We present the results of HAHA at IberLEF 2021: Humor Analysis ba-sed on Human A
 
 - title: "The effects of verbal and spatial memory load on children&#39;s processing speed"
   authors: 
-  year: 2018/7
+  year: 2018
+  month: 7
   type: journal 
   published: Annals of the New York Academy of Sciences
   volume: 1424<div class="gsc_oci_field">Issue1
@@ -719,7 +745,8 @@ We present the results of HAHA at IberLEF 2021: Humor Analysis ba-sed on Human A
 
 - title: "Age-related differentiation in verbal and visuospatial working memory processing in childhood"
   authors: 
-  year: 2020/11
+  year: 2020
+  month: 11
   type: journal 
   published: Psychological Research
   volume: 84<div class="gsc_oci_field">Issue8
@@ -729,7 +756,8 @@ We present the results of HAHA at IberLEF 2021: Humor Analysis ba-sed on Human A
 
 - title: "Crossing the Line: Where do Demographic Variables Fit into Humor Detection?"
   authors: JA Meaney
-  year: 2020/7
+  year: 2020
+  month: 7
   type: conference 
   published: Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop
   pages: 176-181
@@ -738,14 +766,15 @@ Recent humor classification shared tasks have struggled with two issues: either 
 
 - title: "Smash at SemEval-2020 task 7: Optimizing the hyperparameters of ERNIE 2.0 for humor ranking and rating"
   authors: JA Meaney, Steven Wilson, Walid Magdy
-  year: 2020/12
+  year: 2020
+  month: 12
   type: conference 
   published: Proceedings of the Fourteenth Workshop on Semantic Evaluation
   pages: 1049-1054
   abstract: >
 The use of pre-trained language models such as BERT and ULMFiT has become increasingly popular in shared tasks, due to their powerful language modelling capabilities. Our entry to SemEval uses ERNIE 2.0, a language model which is pre-trained on a large number of tasks to enrich the semantic and syntactic information learned. ERNIE&#8217;s knowledge masking pre-training task is a unique method for learning about named entities, and we hypothesise that it may be of use in a dataset which is built on news headlines and which contains many named entities. We optimize the hyperparameters in a regression and classification model and find that the hyperparameters we selected helped to make bigger gains in the classification model than the regression model.
 
-- title: "Don&#8217;t Take It Personally: Analyzing Gender and Age Differences in Ratings of Online Humor"
+- title: "Don't Take It Personally: Analyzing Gender and Age Differences in Ratings of Online Humor"
   authors: JA Meaney, Steven R Wilson, Luis Chiruzzo, Walid Magdy
   year: 2022
   type: conference 
@@ -755,18 +784,10 @@ The use of pre-trained language models such as BERT and ULMFiT has become increa
   abstract: >
 Computational humor detection systems rarely model the subjectivity of humor responses, or consider alternative reactions to humor - namely offense. We analyzed a large dataset of humor and offense ratings by male and female annotators of different age groups. We find that women link these two concepts more strongly than men, and they tend to give lower humor ratings and higher offense scores. We also find that the correlation between humor and offense increases with age. Although there were no gender or age differences in humor detection, women and older annotators signalled that they did not understand joke texts more often than men. We discuss implications for computational humor detection and downstream tasks.
 
-"
-  authors: 
-  year: 2021
-  type: journal 
-  published: Procesamiento del lenguaje natural<div class="gsc_oci_field">Issue67
-  pages: 257-268
-  publisher: 
-  abstract: >
-
 - title: "Metalinguistic Awareness and Executive Functions in Irish-English Bilinguals"
   authors: Julie-Anne Meaney
   year: 2016
+  month: 6
   publisher: The University of Edinburgh
   abstract: >
 
@@ -799,10 +820,16 @@ Performing knowledge transfer from a large teacher network to a smaller student 
   publisher: Nature Publishing Group
   abstract: >
 
-- title: "Meta-learning in neural networks: A survey. arXiv 2020"
-  authors: T Hospedales, A Antoniou, P Micaelli, A Storkey
-  type: journal 
-  published: arXiv preprint arXiv:2004.05439
+- title: "Meta-Learning in Neural Networks: A Survey"
+  authors: [Timothy Hospedales, Antreas Antoniou, Paul Micaelli, Amos Storkey]
+  year: 2021
+  month: 5
+  type: journal
+  accepted: 2021-04-27
+  published: "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+  url: https://ieeexplore.ieee.org/document/9428530
+  abstract: >
+    The field of meta-learning, or learning-to-learn, has seen a dramatic rise in interest in recent years. Contrary to conventional approaches to AI where a given task is solved from scratch using a fixed learning algorithm, meta-learning aims to improve the learning algorithm itself, given the experience of multiple learning episodes. This paradigm provides an opportunity to tackle many of the conventional challenges of deep learning, including data and computation bottlenecks, as well as the fundamental issue of generalization. In this survey we describe the contemporary meta-learning landscape. We first discuss definitions of meta-learning and position it with respect to related fields, such as transfer learning, multi-task learning, and hyperparameter optimization. We then propose a new taxonomy that provides a more comprehensive breakdown of the space of meta-learning methods today. We survey promising applications and successes of meta-learning including few-shot learning, reinforcement learning and architecture search. Finally, we discuss outstanding challenges and promising areas for future research.
 
 - title: "Gradient-based Hyperparameter Optimization Over Long Horizons"
   authors: Paul Micaelli, Amos J Storkey
@@ -832,7 +859,8 @@ Gradient-based hyperparameter optimization has earned a widespread popularity in
 
 - title: "SemEval-2022 task 6: iSarcasmEval, intended sarcasm detection in English and Arabic"
   authors: Ibrahim Abu Farha, Silviu Vlad Oprea, Steven Wilson, Walid Magdy
-  year: 2022/7
+  year: 2022
+  month: 7
   type: conference 
   published: Proceedings of the 16th International Workshop on Semantic Evaluation (SemEval-2022)
   pages: 802-814
@@ -871,7 +899,8 @@ Gradient-based hyperparameter optimization has earned a widespread popularity in
 
 - title: "Chandler: An Explainable Sarcastic Response Generator"
   authors: Silviu Oprea, Steven Wilson, Walid Magdy
-  year: 2021/11
+  year: 2021
+  month: 11
   type: conference 
   published: Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing: System Demonstrations
   pages: 339-349
@@ -899,7 +928,8 @@ Marked by the highlights of native generation of epubE-books and TikZ support fo
 
 - title: "Multi-Stage Framework with Refinement Based Point Set Registration for Unsupervised Bi-Lingual Word Alignment"
   authors: Silviu Vlad Oprea, Sourav Dutta, Haytham Assem
-  year: 2022/10
+  year: 2022
+  month: 10
   type: conference 
   published: Proceedings of the 29th International Conference on Computational Linguistics
   pages: 1089-1097
@@ -908,7 +938,8 @@ Cross-lingual alignment of word embeddings are important in knowledge transfer a
 
 - title: "Should a Chatbot be Sarcastic? Understanding User Preferences Towards Sarcasm Generation"
   authors: Silviu Vlad Oprea, Steven Wilson, Walid Magdy
-  year: 2022/5
+  year: 2022
+  month: 5
   type: conference 
   published: Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
   pages: 7686-7700
@@ -918,6 +949,7 @@ Previous sarcasm generation research has focused on how to generate text that pe
 - title: "Telescoping Density-Ratio Estimation"
   authors: Benjamin Rhodes, Kai Xu, Michael U Gutmann
   year: 2020
+  month: 12
   type: journal 
   published: Advances in Neural Information Processing Systems
   volume: 33
@@ -948,7 +980,8 @@ The likelihood function plays a crucial role in statistical inference and experi
 
 <div id="gsc_oci_title">Enhanced gradient-based MCMC in discrete spaces"
   authors: Benjamin Rhodes, Michael Gutmann
-  year: 2022/10
+  year: 2022
+  month: 10
   type: journal 
   published: Transactions on Machine Learning Research
   publisher: https://openreview.net/forum?id=j2Mid5hF
@@ -957,7 +990,7 @@ The likelihood function plays a crucial role in statistical inference and experi
   authors: Benjamin Rhodes, Michael Gutmann
   year: 2022 
   month:  7
-  type: journal 
+  type: preprint
   published: arXiv preprint arXiv:2208.00040
   abstract: >
 
@@ -965,7 +998,7 @@ The likelihood function plays a crucial role in statistical inference and experi
   authors: Vaidotas Simkus, Benjamin Rhodes, Michael U Gutmann
   year: 2021 
   month:  11
-  type: journal 
+  type: preprint
   published: arXiv preprint arXiv:2111.13180
   abstract: >
 
@@ -975,25 +1008,14 @@ The likelihood function plays a crucial role in statistical inference and experi
   month:  9
   abstract: >
 
-
-- title: "Dimension Formulae for Iterated Function Systems"
-  authors: Benjamin Rhodes
-  abstract: >
-
-<div id="gsc_oci_title">Telescoping Density-Ratio Estimation: Supplementary Material"
-  authors: Benjamin Rhodes, Kai Xu, Michael U Gutmann
-
-- title: "Variational Noise Contrastive Estimation&#8212;Supplementary Materials&#8212;"
-  authors: Benjamin Rhodes, Michael Gutmann
-  abstract: >
-
 - title: "FIMAP: feature importance by minimal adversarial perturbation"
   authors: Matt Chapman-Rounds, Umang Bhatt, Erik Pazos, Marc-Andre Schulz, Konstantinos Georgatzis
   year: 2021 
   month:  5
   type: journal 
   published: Proceedings of the AAAI Conference on Artificial Intelligence
-  volume: 35<div class="gsc_oci_field">Issue13
+  volume: 35
+  issue: 13
   pages: 11433-11441
   abstract: >
 Instance-based model-agnostic feature importance explanations (LIME, SHAP, L2X) are a popular form of algorithmic transparency. These methods generally return either a weighting or subset of input features as an explanation for the classification of an instance. An alternative literature argues instead that counterfactual instances, which alter the black-box model's classification, provide a more actionable form of explanation. We present Feature Importance by Minimal Adversarial Perturbation (FIMAP), a neural network based approach that unifies feature importance and counterfactual explanations. We show that this approach combines the two paradigms, recovering the output of feature-weighting methods in continuous feature spaces, whilst indicating the direction in which the nearest counterfactuals can be found. Our method also provides an implicit confidence estimate in its own explanations, something existing methods lack. Additionally, FIMAP improves upon the speed of sampling-based methods, such as LIME, by an order of magnitude, allowing for explanation deployment in time-critical applications. We extend our approach to categorical features using a partitioned Gumbel layer and demonstrate its efficacy on standard datasets.
@@ -1009,9 +1031,11 @@ Instance-based model-agnostic feature importance explanations (LIME, SHAP, L2X) 
 - title: "Comparative Efficacy and Safety of Tirbanibulin for Actinic Keratosis of the Face and Scalp in Europe: A Systematic Review and Network Meta-Analysis of Randomized Controlled Trials"
   authors: Markus V Heppt, Igor Dykukha, Sara Graziadio, Rafael Salido-Vallejo, Matt Chapman-Rounds, Mary Edwards
   year: 2022 
-  month:  3<div class="gsc_oci_field">SourceJournal of clinical medicine
-  volume: 11<div class="gsc_oci_field">Issue6
+  month:  3
+  volume: 11
+  issue: 6
   pages: 1654
+  published: Journal of clinical medicine
   publisher: MDPI
   abstract: >
 Actinic keratosis (AK) is a chronic skin condition that may progress to cutaneous squamous cell carcinoma. We conducted a systematic review of efficacy and safety for key treatments for AK of the face and scalp, including the novel 5-day tirbanibulin 1% ointment. MEDLINE, PubMed, Embase, Cochrane Library, clinical trial registries and regulatory body websites were searched. The review included 46 studies, of which 35 studies included interventions commonly used in Europe and were sufficiently homogenous to inform a Bayesian network meta-analysis of complete clearance against topical placebo or vehicle. The network meta-analysis revealed the following odds ratios and 95% credible intervals: cryosurgery 13.4 (6.2&#8211;30.3); diclofenac 3% 2.9 (1.9&#8211;4.3); fluorouracil 0.5% + salicylic acid 7.6 (4.6&#8211;13.5); fluorouracil 4% 30.3 (9.1&#8211;144.7); fluorouracil 5% 35.0 (10.2&#8211;164.4); imiquimod 3.75% 8.5 (3.5&#8211;22.4); imiquimod 5% 17.9 (9.1&#8211;36.6); ingenol mebutate 0.015% 12.5 (8.1&#8211;19.9); photodynamic therapy with aminolevulinic acid 24.1 (10.9&#8211;52.8); photodynamic therapy with methyl aminolevulinate 11.7 (6.0&#8211;21.9); tirbanibulin 1% 11.1 (6.2&#8211;20.9). Four sensitivity analyses, from studies assessing efficacy after one treatment cycle only, for &#8804;25 cm<sup>2</sup> treatment area, after 8 weeks post-treatment, and with single placebo/vehicle node confirmed the findings from the base case. Safety outcomes were assessed qualitatively. These results suggest that tirbanibulin 1% offers a novel treatment for AK, with a single short treatment period, favourable safety profile and efficacy, in line with existing topical treatments available in Europe.
@@ -1019,14 +1043,17 @@ Actinic keratosis (AK) is a chronic skin condition that may progress to cutaneou
 - title: "Field Treatments for Actinic Keratosis: A Systematic Review and Network Meta-Analysis"
   authors: G Martin, B Berman, S Feldman, A Armstrong, M Edwards, S Graziadio, R McCool, M Arber, E Carr, D James, M Chapman-Rounds, E Fumero, M Schuchardt, A Grada
   year: 2021 
-  month:  11<div class="gsc_oci_field">SourceSKIN The Journal of Cutaneous Medicine
-  volume: 5<div class="gsc_oci_field">Issue6
+  month:  11
+  published: SKIN The Journal of Cutaneous Medicine
+  volume: 5
+  issue: 6
   pages: s81-s81
   abstract: >
 
 - title: "Inattentional Blindness in Visual Search"
   authors: Matt Chapman-Rounds, Christopher G. Lucas, Frank Keller
-  year: 2019/7
+  year: 2019
+  month: 7
   type: conference 
   published: Annual Meeting of the Cognitive Science Society<div class="gsc_oci_field">Issue41
   pages: 2688-2694
@@ -1048,7 +1075,8 @@ Models of visual saliency normally belong to one of two camps: models such as Ex
   month:  10
   type: journal 
   published: Journal of Lightwave Technology
-  volume: 36<div class="gsc_oci_field">Issue20
+  volume: 36
+  issue: 20
   pages: 5016-5022
   publisher: IEEE
   abstract: >
@@ -1064,14 +1092,15 @@ Models of visual saliency normally belong to one of two camps: models such as Ex
 
 - title: "Zero-Shot Cross-lingual Semantic Parsing"
   authors: Tom Sherborne, Mirella Lapata
-  year: 2022/5
+  year: 2022
+  month: 5
   type: conference 
   published: Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics
   volume: 1
   pages: 4134&#8211;4153
   abstract: >
 
-<div id="gsc_oci_title">Meta-Learning a Cross-lingual Manifold for Semantic Parsing"
+-title: "Meta-Learning a Cross-lingual Manifold for Semantic Parsing"
   authors: Tom Sherborne, Mirella Lapata
   year: 2022 
   month:  9
@@ -1090,10 +1119,12 @@ Models of visual saliency normally belong to one of two camps: models such as Ex
 
 - title: "Expected similarity estimation for large-scale batch and streaming anomaly detection"
   authors: Markus Schneider, Wolfgang Ertel, Fabio Ramos
-  year: 2016/12
+  year: 2016
+  month 12
   type: journal 
   published: Machine Learning
-  volume: 105<div class="gsc_oci_field">Issue3
+  volume: 105
+  issue: 3
   pages: 305-333
   publisher: Springer US
   abstract: >
@@ -1127,7 +1158,7 @@ Models of visual saliency normally belong to one of two camps: models such as Ex
   pages: 66-74
   publisher: PMLR
   abstract: >
-The\emphkernel embedding of distributions is a popular machine learning technique to manipulate probability distributions and an integral part of numerous applications. Its empirical counterpart is an estimate from a finite dataset of samples from the distribution under consideration. However, for large-scale learning problems the empirical kernel embedding becomes infeasible to compute and approximate, constant time, solutions are necessary. Instead of the full dataset, a random subset of smaller size can be used to calculate the empirical kernel embedding, known as\emphsampling without replacement. In this work we generalize the results of (Serfling 1974) to quantify the difference between this two estimates. We derive probability inequalities for the kernel embedding and more general inequalities for Banach space valued martingales in the setting of sampling without replacement.
+The kernel embedding of distributions is a popular machine learning technique to manipulate probability distributions and an integral part of numerous applications. Its empirical counterpart is an estimate from a finite dataset of samples from the distribution under consideration. However, for large-scale learning problems the empirical kernel embedding becomes infeasible to compute and approximate, constant time, solutions are necessary. Instead of the full dataset, a random subset of smaller size can be used to calculate the empirical kernel embedding, known as\emphsampling without replacement. In this work we generalize the results of (Serfling 1974) to quantify the difference between this two estimates. We derive probability inequalities for the kernel embedding and more general inequalities for Banach space valued martingales in the setting of sampling without replacement.
 
 - title: "Expected similarity estimation for large scale anomaly detection"
   authors: 
@@ -1139,38 +1170,22 @@ The\emphkernel embedding of distributions is a popular machine learning techniqu
   publisher: IEEE
   abstract: >
 
-- title: "Learning from demonstration with Gaussian processes"
-  authors: Markus Schneider
-  year: 2009/9
-  institution: Ph. D. dissertation, Master-thesis, University of Applied Sciences Ravensburg-Weingarten, 2009. 1.1, 1.2. 4, B
-  abstract: >
-In the last years robots turned from simple preprogrammed tools into highly flexible machines which are very complex. Therefore it is very difficult to program such a robot and other human-robot interfaces are needed. This is one reason why Learning from Demonstration (LfD) had become a major topic in the context of robotics. This thesis presents a probabilistic framework for robot skill acquisition using Gaussian processes. The proposed approach is able to extract all necessary informations for a reproduction from a relatively small number of demonstrations and is also capable to observe the common characteristics of the task.
-
-- title: "Kernel feature maps from arbitrary distance metrics"
-  authors: 
-  year: 2015 
-  month:  9
-  type: conference 
-  published: 
-  pages: 137-150
-  publisher: Springer, Cham
-  abstract: >
-
 - title: "Expected similarity estimation for large-scale anomaly detection"
   authors: Markus Schneider
   year: 2017 
   month:  2
-  institution: 
+  type: preprint
   abstract: >
 
 - title: "Transductive Learning for Multi-Task Copula Processes"
   authors: Markus Schneider, Fabio Ramos
   year: 2014
+  month: 6
   type: conference 
   published: European Conference  on Artificial Intelligence (ECAI)
   abstract: >
 
-- title: "Combining gaussian processes and conventional path planning in a learning from demonstration framework"
+- title: "Combining Gaussian processes and conventional path planning in a learning from demonstration framework"
   authors: Markus Schneider, Richard Cubek, Tobias Fromm, Wolfgang Ertel
   year: 2010 
   month:  5
@@ -1199,13 +1214,7 @@ As far as we leave the domain of small state and action spaces, we cannot repres
   abstract: >
 A new algorithm named EXPected Similarity Estimation (EXPOSE) was recently proposed to solve the problem of large-scale anomaly detection. It is a non-parametric and distribution free kernel method based on the Hilbert space embedding of probability measures. Given a dataset of n samples, EXPOSE takes O (n) time to build a model and O (1) time per prediction. In this work we describe and analyze a simple and effective stochastic optimization algorithm which allows us to drastically reduce the learning time of EXPOSE from previous linear to constant. It is crucial that this approach allows us to determine the number of iterations based on a desired accuracy, independent of the dataset size n. We will show that the proposed stochastic gradient descent algorithm works in general possible infinite-dimensional Hilbert spaces, is easy to implement and requires no additional step-size parameters.
 
-"
-  authors: Markus Schneider
-  year: 2007/7
-  institution: Verlag nicht ermittelbar
-  abstract: >
-
-<div id="gsc_oci_title">Kernel Embeddings for Large-Scale Anomaly Detection"
+-title: "Kernel Embeddings for Large-Scale Anomaly Detection"
   authors: Markus Schneider, Wolfgang Ertel, Fabio Ramos
   year: 2016
   type: journal 
@@ -1238,16 +1247,17 @@ A new algorithm named EXPected Similarity Estimation (EXPOSE) was recently propo
   abstract: >
 We present network embedding algorithms that capture information about a node from the local distribution over node attributes around it, as observed over random walks following an approach similar to Skip-gram. Observations from neighbourhoods of different sizes are either pooled (AE) or encoded distinctly in a multi-scale approach (MUSAE). Capturing attribute-neighbourhood relationships over multiple scales is useful for a range of applications, including latent feature identification across disconnected networks with similar features. We prove theoretically that matrices of node-feature pointwise mutual information are implicitly factorized by the embeddings. Experiments show that our algorithms are computationally efficient and outperform comparable models on social networks and web graphs.
 
-"
+-title: "Multi-relational Poincaré Graph Embeddings"
   authors: Ivana Balazevic, Carl Allen, Timothy Hospedales
   year: 2019
+  month: 12
   type: journal 
   published: Advances in Neural Information Processing Systems
   volume: 32
   abstract: >
 
 - title: "Hypernetwork knowledge graph embeddings"
-  authors: Ivana Bala&#382;evi&#263;, Carl Allen, Timothy M Hospedales
+  authors: Ivana Balazevic, Carl Allen, Timothy M Hospedales
   year: 2019 
   month:  9
   type: conference 
@@ -1261,10 +1271,11 @@ We present network embedding algorithms that capture information about a node fr
   year: 2000 
   month:  4
   type: journal 
-  published: Chemistry&#8211;A European Journal
-  volume: 6<div class="gsc_oci_field">Issue8
+  published: Chemistry;A European Journal
+  volume: 6
+  issue: 8
   pages: 1455-1466
-  publisher: WILEY&#8208;VCH Verlag
+  publisher: WILEY; VCH Verlag
   abstract: >
 The lantibiotics are a class of highly posttranslationally modified small peptide antibiotics containing numerous lanthionine and dehydroamino acid residues. We have prepared peptides containing multiple dehydroamino acids and cysteine residues in order to probe the biomimetic synthesis of the lantibiotics from their precursor peptides. A novel synthetic methodology was developed to allow the synthesis of multiple dehydroamino acid containing peptides. Cyclisations were rapid, quantitative and regiospecific. Remarkably the peptide sequences alone appear to contain sufficient information to direct a series of stereo&#8208; and regiospecific ring closures. Thus both the two linear peptides for the B and E&#8208;rings closed stereoselectively. In the case of the A&#8208;ring precursor peptide which contained two dehydroamino acids, cyclisation was again totally regioselective, although not totally stereoselective.
 
@@ -1280,7 +1291,7 @@ The lantibiotics are a class of highly posttranslationally modified small peptid
 Word embeddings generated by neural network methods such as word2vec (W2V) are well known to exhibit seemingly linear behaviour, eg the embeddings of analogy &#8220;woman is to queen as man is to king&#8221; approximately describe a parallelogram. This property is particularly intriguing since the embeddings are not trained to achieve it. Several explanations have been proposed, but each introduces assumptions that do not hold in practice. We derive a probabilistically grounded definition of paraphrasing that we re-interpret as word transformation, a mathematical description of &#8220;<svg class="gs_fsvg" aria-label=" w_x " width="17px" height="8px" style="vertical-align:-2px;"><g transform="matrix(0.01400, 0.00000, 0.00000, 0.01400, 0.00000, 6.20200)"><g><path transform="scale(0.48828, -0.48828)" d="M 221 238  Q 221 281 232 337  T 258 436  T 305 570  T 342 668  Q 369 743 369 791  Q 369 852 324 852  Q 243 852 190 768  T 113 582  Q 109 569 96 569  H 72  Q 55 569 55 588  V 594  Q 88 716 156 810  T 328 905  Q 401 905 451 857  T 502 735  Q 502 697 485 655  Q 461 593 428 506  T 378 348  T 360 211  Q 360 131 402 81  T 524 31  Q 633 31 705 197  Q 702 209 702 231  Q 702 286 719 356  L 834 817  Q 841 844 866 863  T 920 883  Q 944 883 962 867  T 981 825  Q 981 813 979 809  L 864 352  Q 844 270 844 205  Q 844 128 879 79  T 991 31  Q 1123 31 1208 205  Q 1240 267 1279 388  T 1319 573  Q 1319 632 1300 666  T 1247 741  T 1214 801  Q 1214 840 1247 873  T 1321 907  Q 1370 907 1391 862  T 1413 760  Q 1413 691 1390 584  T 1332 370  T 1266 199  Q 1154 -23 987 -23  Q 901 -23 830 10  T 725 115  Q 692 56 638 16  T 520 -23  Q 385 -23 303 41  T 221 238  Z "/><g transform="translate(715.94000, 150.00000)"><path transform="scale(0.34180, -0.34180)" d="M 215 76  Q 257 45 324 45  Q 390 45 441 102  T 508 227  L 600 596  Q 621 674 621 713  Q 621 769 588 803  T 500 838  Q 433 838 375 801  T 275 705  T 217 582  Q 214 563 197 563  H 164  Q 155 563 148 572  T 141 588  V 596  Q 174 721 277 812  T 504 903  Q 554 903 602 887  T 689 841  T 750 766  Q 791 826 850 864  T 973 903  Q 1058 903 1125 863  T 1192 745  Q 1192 710 1176 679  T 1132 630  T 1069 612  Q 1035 612 1011 633  T 987 690  Q 987 731 1013 764  T 1079 807  Q 1034 838 969 838  Q 924 838 886 810  T 822 743  T 782 655  L 690 287  Q 672 204 672 170  Q 672 114 704 79  T 793 45  Q 844 45 890 67  T 975 127  T 1039 211  T 1075 301  Q 1082 319 1098 319  H 1130  Q 1140 319 1146 311  T 1153 295  Q 1153 291 1151 287  Q 1131 205 1077 135  T 947 22  T 788 -20  Q 710 -20 643 15  T 543 117  Q 505 59 445 19  T 319 -20  Q 237 -20 169 19  T 102 137  Q 102 190 137 230  T 225 270  Q 260 270 283 249  T 307 193  Q 307 152 281 118  T 215 76  Z "/></g></g></g></svg> is to <svg class="gs_fsvg" aria-label=" w_y " width="16px" height="10px" style="vertical-align:-4px;"><g transform="matrix(0.01400, 0.00000, 0.00000, 0.01400, 0.00000, 6.20200)"><g><path transform="scale(0.48828, -0.48828)" d="M 221 238  Q 221 281 232 337  T 258 436  T 305 570  T 342 668  Q 369 743 369 791  Q 369 852 324 852  Q 243 852 190 768  T 113 582  Q 109 569 96 569  H 72  Q 55 569 55 588  V 594  Q 88 716 156 810  T 328 905  Q 401 905 451 857  T 502 735  Q 502 697 485 655  Q 461 593 428 506  T 378 348  T 360 211  Q 360 131 402 81  T 524 31  Q 633 31 705 197  Q 702 209 702 231  Q 702 286 719 356  L 834 817  Q 841 844 866 863  T 920 883  Q 944 883 962 867  T 981 825  Q 981 813 979 809  L 864 352  Q 844 270 844 205  Q 844 128 879 79  T 991 31  Q 1123 31 1208 205  Q 1240 267 1279 388  T 1319 573  Q 1319 632 1300 666  T 1247 741  T 1214 801  Q 1214 840 1247 873  T 1321 907  Q 1370 907 1391 862  T 1413 760  Q 1413 691 1390 584  T 1332 370  T 1266 199  Q 1154 -23 987 -23  Q 901 -23 830 10  T 725 115  Q 692 56 638 16  T 520 -23  Q 385 -23 303 41  T 221 238  Z "/><g transform="translate(715.94000, 150.00000)"><path transform="scale(0.34180, -0.34180)" d="M 176 -238  Q 176 -182 210 -141  T 299 -100  Q 334 -100 358 -122  T 383 -178  Q 383 -223 352 -257  T 276 -297  Q 323 -352 424 -352  Q 567 -352 682 -201  Q 724 -145 750 -82  T 797 68  Q 699 -20 582 -20  Q 451 -20 370 45  T 289 240  Q 289 331 320 424  T 414 670  Q 436 729 436 770  Q 436 799 424 818  T 387 838  Q 305 838 249 758  T 168 582  Q 165 563 147 563  H 115  Q 106 563 99 572  T 92 588  V 596  Q 112 672 153 741  T 255 857  T 391 903  Q 444 903 489 882  T 563 821  T 592 729  Q 592 695 578 655  Q 515 500 482 400  T 449 209  Q 449 138 482 91  T 586 45  Q 727 45 834 219  L 981 807  Q 990 840 1017 861  T 1077 883  Q 1107 883 1128 864  T 1149 817  Q 1149 810 1148 806  T 1147 797  L 946 -8  Q 918 -120 837 -215  T 646 -364  T 420 -418  Q 327 -418 251 -372  T 176 -238  Z "/></g></g></g></svg>&#8221;. From these concepts we prove existence of linear relationship between W2V-type embeddings that underlie the analogical phenomenon, identifying explicit error terms.
 
 - title: "Interpreting knowledge graph relation representation from word embeddings"
-  authors: Carl Allen, Ivana Bala&#382;evi&#263;, Timothy Hospedales
+  authors: Carl Allen, Ivana Balazevic, Timothy Hospedales
   year: 2019 
   month:  9
   type: journal 
@@ -1288,7 +1299,7 @@ Word embeddings generated by neural network methods such as word2vec (W2V) are w
   abstract: >
 
 - title: "What the Vec? Towards Probabilistically Grounded Embeddings"
-  authors: Carl Allen, Ivana Bala&#382;evi&#263;, Timothy Hospedales
+  authors: Carl Allen, Ivana Balazevic, Timothy Hospedales
   year: 2019 
   month:  5
   type: journal 
@@ -1297,7 +1308,7 @@ Word embeddings generated by neural network methods such as word2vec (W2V) are w
 Word2Vec (W2V) and Glove are popular word embedding algorithms that perform well on a variety of natural language processing tasks. The algorithms are fast, efficient and their embeddings widely used. Moreover, the W2V algorithm has recently been adopted in the field of graph embedding, where it underpins several leading algorithms. However, despite their ubiquity and the relative simplicity of their common architecture, what the embedding parameters of W2V and Glove learn, and why that it useful in downstream tasks largely remains a mystery. We show that different interactions of PMI vectors encode semantic properties that can be captured in low dimensional word embeddings by suitable projection, theoretically explaining why the embeddings of W2V and Glove work, and, in turn, revealing an interesting mathematical interconnection between the semantic relationships of relatedness, similarity, paraphrase and analogy.
 
 - title: "Benchmark and best practices for biomedical knowledge graph embeddings"
-  authors: David Chang, Ivana Bala&#382;evi&#263;, Carl Allen, Daniel Chawla, Cynthia Brandt, Richard Andrew Taylor
+  authors: David Chang, Ivana Balazevic, Carl Allen, Daniel Chawla, Cynthia Brandt, Richard Andrew Taylor
   year: 2020/7
   type: journal 
   published: Proceedings of the conference. Association for Computational Linguistics. Meeting
@@ -1307,7 +1318,7 @@ Word2Vec (W2V) and Glove are popular word embedding algorithms that perform well
   abstract: >
 
 - title: "A Probabilistic Model for Discriminative and Neuro-Symbolic Semi-Supervised Learning"
-  authors: Carl Allen, Ivana Bala&#382;evi&#263;, Timothy Hospedales
+  authors: Carl Allen, Ivana Balazevic, Timothy Hospedales
   year: 2020 
   month:  6
   type: journal 
@@ -1323,7 +1334,7 @@ Word2Vec (W2V) and Glove are popular word embedding algorithms that perform well
   abstract: >
 
 - title: "Learning to Drop Out: An Adversarial Approach to Training Sequence VAEs"
-  authors: &#272;or&#273;e Miladinovi&#263;, Kumar Shridhar, Kushal Jain, Max B Paulus, Joachim M Buhmann, Carl Allen
+  authors: Dorde Miladinovic, Kumar Shridhar, Kushal Jain, Max B Paulus, Joachim M Buhmann, Carl Allen
   year: 2022 
   month:  9
   type: journal 
@@ -1334,15 +1345,15 @@ Word2Vec (W2V) and Glove are popular word embedding algorithms that perform well
   authors: Carl Allen
   year: 2022 
   month:  2
-  type: journal 
+  type: preprint 
   published: arXiv preprint arXiv:2202.00486
   abstract: >
 
 - title: "Learning the Prediction Distribution for Semi-Supervised Learning with Normalising Flows"
-  authors: Ivana Bala&#382;evi&#263;, Carl Allen, Timothy Hospedales
+  authors: Ivana Balazevic, Carl Allen, Timothy Hospedales
   year: 2020 
   month:  7
-  type: journal 
+  type: preprint 
   published: arXiv preprint arXiv:2007.02745
   abstract: >
 
@@ -1350,19 +1361,8 @@ Word2Vec (W2V) and Glove are popular word embedding algorithms that perform well
   authors: Antreas Antoniou, Amos Storkey, Harrison Edwards
   year: 2017 
   month:  11
-  type: journal 
+  type: techreport 
   published: arXiv preprint arXiv:1711.04340
-  abstract: >
-
-- title: "Meta-learning in neural networks: A survey"
-  authors: Timothy Hospedales, Antreas Antoniou, Paul Micaelli, Amos Storkey
-  year: 2021 
-  month:  5
-  type: journal 
-  published: IEEE transactions on pattern analysis and machine intelligence
-  volume: 44<div class="gsc_oci_field">Issue9
-  pages: 5149-5169
-  publisher: IEEE
   abstract: >
 
 - title: "How to train your MAML"
@@ -1417,7 +1417,7 @@ In few-shot learning, a machine learning system is required to learn from a smal
   abstract: >
 
 - title: "Dilated Densenets for Relational Reasoning"
-  authors: Antreas Antoniou, Agnieszka S&#322;owik, Elliot J Crowley, Amos Storkey
+  authors: Antreas Antoniou, Agnieszka Slowik, Elliot J Crowley, Amos Storkey
   year: 2018 
   month:  11
   type: journal 
@@ -1437,7 +1437,7 @@ Recent work in meta-learning has set the deep learning community alight. From mi
   abstract: >
 
 - title: "Tucker: Tensor factorization for knowledge graph completion"
-  authors: Ivana Bala&#382;evi&#263;, Carl Allen, Timothy M Hospedales
+  authors: Ivana Balazevic;, Carl Allen, Timothy M Hospedales
   year: 2019 
   month:  1
   type: journal 

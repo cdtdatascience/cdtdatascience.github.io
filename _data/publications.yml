@@ -101,7 +101,7 @@
   year: 2022
   month: 7
   type: workshop 
-  published: arXiv preprint arXiv:2207.07624; ICML 2022 Workshop on Pre-training: Perspectives, Pitfalls, and Paths Forward
+  published: arXiv preprint arXiv:2207.07624; ICML 2022 Workshop on Pre-training - Perspectives, Pitfalls, and Paths Forward
   abstract: >
   
 - title: "EXOTica: An Extensible Optimization Toolset for Prototyping and Benchmarking Motion Planning and Control"

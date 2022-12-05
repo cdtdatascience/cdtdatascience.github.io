@@ -1119,7 +1119,7 @@
 - title: "Expected similarity estimation for large-scale batch and streaming anomaly detection"
   authors: Markus Schneider, Wolfgang Ertel, Fabio Ramos
   year: 2016
-  month 12
+  month: 12
   type: journal 
   published: Machine Learning
   volume: 105
@@ -1437,14 +1437,6 @@
   month:  1
   type: journal 
   published: arXiv preprint arXiv:1901.09590
-  abstract: >
-
-    "
-  authors: Ivana Balazevic, Carl Allen, Timothy Hospedales
-  year: 2019
-  type: journal 
-  published: Advances in Neural Information Processing Systems
-  volume: 32
   abstract: >
 
 - title: "Hypernetwork Knowledge Graph Embeddings"
@@ -3268,7 +3260,7 @@
   authors: Philippa Shoemark, Debnil Sur, Luke Shrimpton, Iain Murray, Sharon Goldwater
   year: 2017/4
   type: conference 
-  published: Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics: Volume 1, Long Papers
+  published: Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics - Volume 1, Long Papers
   pages: 1239-1248
   abstract: >
     Political surveys have indicated a relationship between a sense of Scottish identity and voting decisions in the 2014 Scottish Independence Referendum. Identity is often reflected in language use, suggesting the intuitive hypothesis that individuals who support Scottish independence are more likely to use distinctively Scottish words than those who oppose it. In the first large-scale study of sociolinguistic variation on social media in the UK, we identify distinctively Scottish terms in a data-driven way, and find that these terms are indeed used at a higher rate by users of pro-independence hashtags than by users of anti-independence hashtags. However, we also find that in general people are less likely to use distinctively Scottish words in tweets with referendum-related hashtags than in their general Twitter activity. We attribute this difference to style shifting relative to audience, aligning with previous work showing that Twitter users tend to use fewer local variants when addressing a broader audience.
@@ -3295,7 +3287,7 @@
   authors: Philippa Shoemark, James Kirby, Sharon Goldwater
   year: 2018
   type: journal 
-  published: Proceedings of the 2018 EMNLP Workshop W-NUT: The 4th Workshop on Noisy User-generated Text
+  published: Proceedings of the 2018 EMNLP Workshop W-NUT - The 4th Workshop on Noisy User-generated Text
   pages: 1-6
   abstract: >
     Sociolinguistics is often concerned with how variants of a linguistic item (eg, nothing vs. nothin&#8217;) are used by different groups or in different situations. We introduce the task of inducing lexical variables from code-mixed text: that is, identifying equivalence pairs such as (football, fitba) along with their linguistic code (football&#8594; British, fitba&#8594; Scottish). We adapt a framework for identifying gender-biased word pairs to this new task, and present results on three different pairs of English dialects, using tweets as the code-mixed text. Our system achieves precision of over 70% for two of these three datasets, and produces useful results even without extensive parameter tuning. Our success in adapting this framework from gender to language variety suggests that it could be used to discover other types of analogous pairs as well.
@@ -3378,7 +3370,7 @@
   abstract: >
     The popularity of the user generated content, such as Twitter, has made it a rich source for the sentiment analysis and opinion mining tasks. This paper presents our study in automatically building a training corpus for the sentiment analysis on Indonesian tweets. We start with a set of seed sentiment corpus and subsequently expand them using a classifier model whose parameters are estimated using the Expectation and Maximization (EM) framework. We apply our automatically built corpus to perform two tasks, namely opinion tweet extraction and tweet polarity classification using various machine learning approaches. Experiment result shows that a classifier model trained on our data, which is automatically constructed using our proposed method, outperforms the baseline system in terms of opinion tweet extraction and tweet polarity classification.
 
-    <div id="gsc_oci_title">Multilingual Probing Tasks for Word Representations"
+ - title: "Multilingual Probing Tasks for Word Representations"
   authors: 
   year: 2020
   type: journal 

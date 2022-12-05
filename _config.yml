@@ -2,10 +2,10 @@
 permalink:           pretty
 
 # Setup
-title:               Bayesian and Neural Systems
-alttitle:            BayesWatch
-tagline:             Machine learning research group in Edinburgh 
-url:                 http://bayeswatch.github.io
+title:               CDT Data Science Publications
+alttitle:            CDT Data Science Publications
+tagline:             CDT Data Science Publications 
+url:                 http://cdtdatascience.github.io
 paginate:            10
 paginate_path:       "posts/page:num"
 baseurl:             ""
@@ -19,7 +19,7 @@ sass:
 
 # About/contact
 author:
-  name:              Amos Storkey and group members
+  name:              Amos Storkey
   url:               https://homepages.inf.ed.ac.uk/amos
 
 # Custom vars

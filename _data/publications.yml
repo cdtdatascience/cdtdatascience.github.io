@@ -1759,18 +1759,18 @@
 
 - title: "Exploration by Random Network Distillation"
   authors: Yuri Burda, Harrison Edwards, Amos Storkey, Oleg Klimov
-  year: 2018 
-  month:  10
-  type: journal 
-  published: arXiv preprint arXiv:1810.12894
+  year: 2019
+  month:  4
+  type: conference 
+  published: ICLR 2019
   abstract: >
 
 - title: "Large-Scale Study of Curiosity-Driven Learning"
   authors: Yuri Burda, Harri Edwards, Deepak Pathak, Amos Storkey, Trevor Darrell, Alexei A Efros
-  year: 2018 
-  month:  8
-  type: journal 
-  published: arXiv preprint arXiv:1808.04355
+  year: 2019 
+  month:  4
+  type: conference 
+  published: ICLR 2019
   abstract: >
 
 - title: "How to train your {MAML}"
@@ -1779,8 +1779,7 @@
   month: 5
   type: conference
   url: https://arxiv.org/abs/1810.09502
-  project: meta
-  published: International Conference on Learning Representations (ICLR)
+   published: International Conference on Learning Representations (ICLR)
   abstract: >
     The field of few-shot learning has recently seen substantial advancements. Most of these advancements came from casting few-shot learning as a meta-learning problem. Model Agnostic Meta Learning or MAML is currently one of the best approaches for few-shot learning via meta-learning. MAML is simple, elegant and very powerful, however, it has a variety of issues, such as being very sensitive to neural network architectures, often leading to instability during training, requiring arduous hyperparameter searches to stabilize training and achieve high generalization and being very computationally expensive at both training and inference times. In this paper, we propose various modifications to MAML that not only stabilize the system, but also substantially improve the generalization performance, convergence speed and computational overhead of MAML, which we call MAML++. 
 
@@ -1800,7 +1799,6 @@
   published: International Conference on Learning Representations (ICLR)
   year: 2017
   month: 4
-  project: meta
   url: https://arxiv.org/abs/1606.02185
   abstract: >
     An efficient learner is one who reuses what they already know to tackle a new problem. For a machine learner, this means understanding the similarities amongst datasets. In order to do this, one must take seriously the idea of working with datasets, rather than datapoints, as the key objects to model. Towards this goal, we demonstrate an extension of a variational autoencoder that can learn a method for computing representations, or statistics, of datasets in an unsupervised fashion. The network is trained to produce statistics that encapsulate a generative model for each dataset. Hence the network enables efficient learning from new datasets for both unsupervised and supervised tasks. We show that we are able to learn statistics that can be used for: clustering datasets, transferring generative models to new datasets, selecting representative samples of datasets and classifying previously unseen classes. We refer to our model as a neural statistician, and by this we mean a neural network that can learn to compute summary statistics of datasets without supervision.
@@ -1809,7 +1807,7 @@
   authors: Mark Chen, Jerry Tworek, Heewoo Jun, Qiming Yuan, Henrique Ponde, Jared Kaplan, Harri Edwards, Yura Burda, Nicholas Joseph, Greg Brockman, Alex Ray, Raul Puri, Gretchen Krueger, Michael Petrov, Heidy Khlaaf, Girish Sastry, Pamela Mishkin, Brooke Chan, Scott Gray, Nick Ryder, Mikhail Pavlov, Alethea Power, Lukasz Kaiser, Mohammad Bavarian, Clemens Winter, Philippe Tillet, Felipe Such, Dave Cummings, Matthias Plappert, Fotios Chantzis, Elizabeth Barnes, Ariel Herbert-Voss, Will Guss, Alex Nichol, Igor Babuschkin, Suchir Balaji, Shantanu Jain, Andrew Carr, Jan Leike, Josh Achiam, Vedant Misra, Evan Morikawa, Alec Radford, Matthew Knight, Miles Brundage, Mira Murati, Katie Mayer, Peter Welinder, Bob McGrew, Dario Amodei, Sam McCandlish, Ilya Sutskever, Wojciech Zaremba
   year: 2021 
   month:  7
-  type: journal 
+  type: preprint
   published: arXiv preprint arXiv:2107.03374
   abstract: >
 
@@ -1817,7 +1815,7 @@
   authors: Joshua Achiam, Harrison Edwards, Dario Amodei, Pieter Abbeel
   year: 2018 
   month:  7
-  type: journal 
+  type: preprint 
   published: arXiv preprint arXiv:1807.10299
   abstract: >
 
@@ -1825,7 +1823,7 @@
   authors: Aditya Grover, Maruan Al-Shedivat, Jayesh K Gupta, Yura Burda, Harrison Edwards
   year: 2018 
   month:  6
-  type: journal 
+  type: preprint 
   published: arXiv preprint arXiv:1806.06464
   abstract: >
     Modeling agent behavior is central to understanding the emergence of complex phenomena in multiagent systems. Prior work in agent modeling has largely been task-specific and driven by hand-engineering domain-specific prior knowledge. We propose a general learning framework for modeling agent behavior in any multiagent system using only a handful of interaction data. Our framework casts agent modeling as a representation learning problem. Consequently, we construct a novel objective inspired by imitation learning and agent identification and design an algorithm for unsupervised learning of representations of agent policies. We demonstrate empirically the utility of the proposed framework in (i) a challenging high-dimensional competitive environment for continuous control and (ii) a cooperative environment for communication, on supervised predictive tasks, unsupervised clustering, and policy optimization using deep reinforcement learning.
@@ -1845,14 +1843,15 @@
   authors: Jesse Michael Han, Igor Babuschkin, Harrison Edwards, Arvind Neelakantan, Tao Xu, Stanislas Polu, Alex Ray, Pranav Shyam, Aditya Ramesh, Alec Radford, Ilya Sutskever
   year: 2021 
   month:  10
-  type: journal 
+  type: preprint 
   published: arXiv preprint arXiv:2110.05448
   abstract: >
 
 - title: "Evaluating Generalization in Multiagent Systems using Agent-Interaction Graphs"
   authors: Aditya Grover, Maruan Al-Shedivat, Jayesh K Gupta, Yuri Burda, Harrison Edwards
   year: 2018
-  type: journal 
+  month: 6
+  type: conference 
   published: International Conference on Autonomous Agents and Multiagent Systems
   abstract: >
     Learning from interactions between agents is a key component for inference in multiagent systems. Depending on the downstream task, there could be multiple criteria for evaluating the generalization performance of learning. In this work, we propose a novel framework for evaluating generalization in multiagent systems based on agent-interaction graphs. An agent-interaction graph models agents as nodes and interactions as hyper-edges between participating agents. Using this abstract data structure, we define three notions of generalization for principled evaluation of learning in multiagent systems.
@@ -2143,14 +2142,6 @@
   published: arXiv preprint arXiv:2003.06686
   abstract: >
 
-- title: "A learned emotion space for emotion recognition and emotive speech synthesis"
-  authors: Zack Hodari
-  year: 2017
-  month: 8
-  institution: Master's thesis, The University of Edinburgh
-  abstract: >
-    Emotion is a complex phenomenon that contributes heavily to human communication. Typically, human-computer interaction and text-to-speech systems do not account for emotion information, possibly due to lack of accurate emotion recognition and emotive speech synthesis methods. It seems likely that emotion recognition and synthesis has the ability to greatly improve how humans interface with machines.
-
 - title: "Synthesising prosody with insufficient context"
   authors: Zack Hodari
   year: 2022 
@@ -2163,7 +2154,7 @@
   authors: Miguel Jaques, Michael Burke, Timothy Hospedales
   year: 2019 
   month:  5
-  type: journal 
+  type: preprint 
   published: arXiv preprint arXiv:1905.11169
   abstract: >
 
@@ -2178,6 +2169,7 @@
 - title: "NewtonianVAE: Proportional control and goal identification from pixels via physical latent spaces"
   authors: Miguel Jaques, Michael Burke, Timothy M Hospedales
   year: 2021
+  month: 5
   type: conference 
   published: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition
   pages: 4454-4463
@@ -2315,10 +2307,6 @@
   month: 6
   type: techreport
   publisher: Technical report, Univerisity of Edinburgh, Edinburgh
-  abstract: >
-
-- title: "Extending the Social Network Interaction Model to Serve Collaboration in Enterprise 2.0"
-  authors: Ourania Hatzi, Giannis Meletakis, Panagiotis Katsivelis, Andreas Kapouranis, Mara Nikolaidou, Dimosthenis Anagnostopoulos
   abstract: >
 
 - title: "Big Code != Big Vocabulary: Open-vocabulary models for source code"
@@ -2515,9 +2503,11 @@
 - title: "Bayesian Experimental Design for Intractable Models of Cognition"
   authors: Simon Valentin, Steven Kleinegesse, Neil R Bramley, Michael Gutmann, Chris Lucas
   year: 2021
-  type: journal 
+  month: 6
+  type: conference 
   published: Proceedings of the Annual Meeting of the Cognitive Science Society
-  volume: 43<div class="gsc_oci_field">Issue43
+  volume: 43
+  issue: 43
   abstract: >
 
 - title: "Relational inductive biases, deep learning, and graph networks"
@@ -3263,7 +3253,8 @@
 
 - title: "Automatically building a corpus for sentiment analysis on Indonesian tweets"
   authors: Alfan Farizki Wicaksono, Clara Vania, Bayu Distiawan, Mirna Adriani
-  year: 2014/12
+  year: 2014
+  month: 12
   type: conference 
   published: Proceedings of the 28th Pacific Asia conference on language, information and computing
   pages: 185-194
@@ -3438,7 +3429,7 @@
 - title: "Speech is Silver, Silence is Golden: What do ASVspoof-trained Models Really Learn?"
   authors: 
   year: 2021 
-  month:  6
+  month: 6
   type: workshop 
   published: 2021 Edition of the Automatic Speaker Verification and Spoofing Countermeasures Challenge
   pages: 55-60
@@ -3474,7 +3465,7 @@
 - title: "Extracting Fine-Grained Durations for Verbs from Twitter"
   authors: Jennifer Williams
   year: 2012 
-  month:  7
+  month: 7
   type: conference 
   published: ACL 2012 (SRW)
   pages: 49-54
@@ -3520,6 +3511,7 @@
 - title: "Finding Good Enough: A Task-Based Evaluation of Query Biased Summarization for Cross-Language Information Retrieval"
   authors: Jennifer Williams, Sharon Tam, Wade Shen
   year: 2014
+  month: 6
   type: journal 
   published: Empirical Methods in Natural Language Processing (EMNLP)
   abstract: >
@@ -3537,6 +3529,7 @@
 - title: "Analysing Temporal Sensitivity of VQ-VAE Sub-Phone Codebooks"
   authors: Jason Fong, Jennifer Williams, Simon King
   year: 2021
+  month: 6
   type: conference 
   published: Proc. 11th ISCA Speech Synthesis Workshop (SSW 11)
   pages: 227-231

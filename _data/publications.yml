@@ -1101,7 +1101,7 @@
   pages: 4134-4153
   abstract: >
 
--title: "Meta-Learning a Cross-lingual Manifold for Semantic Parsing"
+- title: "Meta-Learning a Cross-lingual Manifold for Semantic Parsing"
   authors: Tom Sherborne, Mirella Lapata
   year: 2022 
   month:  9
@@ -1216,7 +1216,7 @@
   abstract: >
     A new algorithm named EXPected Similarity Estimation (EXPOSE) was recently proposed to solve the problem of large-scale anomaly detection. It is a non-parametric and distribution free kernel method based on the Hilbert space embedding of probability measures. Given a dataset of n samples, EXPOSE takes O (n) time to build a model and O (1) time per prediction. In this work we describe and analyze a simple and effective stochastic optimization algorithm which allows us to drastically reduce the learning time of EXPOSE from previous linear to constant. It is crucial that this approach allows us to determine the number of iterations based on a desired accuracy, independent of the dataset size n. We will show that the proposed stochastic gradient descent algorithm works in general possible infinite-dimensional Hilbert spaces, is easy to implement and requires no additional step-size parameters.
 
--title: "Kernel Embeddings for Large-Scale Anomaly Detection"
+- title: "Kernel Embeddings for Large-Scale Anomaly Detection"
   authors: Markus Schneider, Wolfgang Ertel, Fabio Ramos
   year: 2016
   month: 6

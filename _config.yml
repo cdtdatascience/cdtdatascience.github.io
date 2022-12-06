@@ -2,9 +2,9 @@
 permalink:           pretty
 
 # Setup
-title:               CDT Data Science Publications
+title:               CDT Data Science
 alttitle:            CDT Data Science Publications
-tagline:             CDT Data Science Publications 
+tagline:             Publications Site
 url:                 http://cdtdatascience.github.io
 paginate:            10
 paginate_path:       "posts/page:num"

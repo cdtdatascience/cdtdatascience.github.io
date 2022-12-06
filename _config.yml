@@ -40,6 +40,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-datapage-generator
   - jekyll-scholar
 # mimic GitHub Pages with --safe
 whitelist:

@@ -1,4 +1,4 @@
-import heroImage from './assets/bg-masthead.png';
+import heroImage from './assets/bg-masthead.jpg';
 
 export const SITE = {
   website: 'https://cdtdatascience.github.io/', // Replace with your actual deployed URL

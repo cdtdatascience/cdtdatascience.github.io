@@ -1,10 +1,10 @@
 import heroImage from './assets/hero-real.jpg';
 
 export const SITE = {
-  website: 'https://scholar-lite-demo.netlify.app/', // Replace with your actual deployed URL
-  author: 'Scholar-Lite Team',
-  description: 'A lightweight, modern static website template for academic labs and scholars.',
-  title: 'Scholar-Lite',
+  website: 'https://cdtdatascience.github.io/', // Replace with your actual deployed URL
+  author: 'Amos Storkey',
+  description: 'CDT ML Systems',
+  title: 'CDT ML Systems',
   ogImage: 'astropaper-og.jpg',
   lightAndDarkMode: true,
   postPerPage: 3,
